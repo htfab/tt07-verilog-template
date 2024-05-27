@@ -82,3 +82,6 @@ set ::env(RT_MAX_LAYER) {met4}
 
 # MAGIC_DEF_LABELS may cause issues with LVS
 set ::env(MAGIC_DEF_LABELS) 0
+
+# MAGIC_WRITE_LEF_PINONLY is needed for OpenLane 2
+set ::env(MAGIC_WRITE_LEF_PINONLY) 1
